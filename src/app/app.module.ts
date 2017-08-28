@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { NumericInputValidationDirective } from './directive/numeric-input-validation.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NumericInputValidationDirective
   ],
   imports: [
     BrowserModule
